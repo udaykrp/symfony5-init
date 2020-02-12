@@ -1,3 +1,4 @@
 /code/vendor/
 /code/var/
 /docker/data/
+*.code-workspace

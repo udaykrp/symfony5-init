@@ -15,6 +15,4 @@ RUN set -ex &&\
  curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer &&\
  rm -r /root/.composer
 
-RUN composer create-project symfony/website-skeleton /var/www/html
-
 RUN chown -R www-data: /var/www/html
